@@ -1,0 +1,150 @@
+#b2{
+    background-image: url("rect1183.png");
+    background-repeat: no-repeat;
+    background: cross-fade();
+}
+#b1{
+    background-image: url("rect1183.png");
+    background-repeat: no-repeat;
+}
+h1{
+    width: 300px;
+    text-align: center;
+    color: blueviolet;
+    text-decoration-style: dotted;
+    height: 40px;
+    border: 3px solid blueviolet;
+    background-color: red;
+}
+
+#gameplay{
+    width: 500px;
+    height: 200px;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace ;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+
+}
+#play{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: 350px;
+}
+
+#play:hover{
+    width: 120px;
+    height: 120px;
+
+}
+#cont{
+    width: 800px;
+    height: 500px;
+}
+#chicken{
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    transform: rotateY(180deg);
+}
+
+#house{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+#message{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left:   400px;
+    border: 1px solid black;
+    background: white;
+}
+#cat1{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 260px;
+    top: 320px;
+}
+#cat2{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: rotateY(180deg);    
+}
+#cat3{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+}
+#cat4{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 70px;
+    top: 350px;
+    transform: rotateY(180deg);
+}
+#cat5{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    transform: rotateY(180deg); 
+}
+#cat6{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 450px;
+    top: 130px;
+}
+#cat7{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 230px;
+    left: 450px;
+    transform: rotateY(180deg); 
+}
+#cat8{
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    left: 500px;
+    top: 390px;
+}
+
+#timer{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 700px;
+    
+}
+#seconds{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 30px;
+    top: 45px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
